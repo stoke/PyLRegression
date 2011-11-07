@@ -10,7 +10,7 @@ python lr_training.py -f <filename_where_to_save_thetas> -i <iterations=400> -a 
 
 Where "iteration" parameter is the max number of iterations for gradient descent (default 400) and "alpha" is the learning rate.
 
-Then, supposing that thetas are stored in "ts.txt", and we want to "calculate" 1 AND 1, run:
+Then, supposing that thetas are stored in "ts.txt", and we want to "calculate" 1 OR 1, run:
 
 python lr.py -f ts.txt 1:1
 
